@@ -23,7 +23,5 @@
     },
     "autoload": {
         "psr-4": {"Mpinchuk\\Scraper\\": "src/"}
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
