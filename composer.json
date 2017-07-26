@@ -1,0 +1,29 @@
+{
+    "name": "mpinchuk/scraper",
+    "description": "Provides an ability to scrap articles from GRBJ homepage",
+    "type": "library",
+    "keywords": ["scraper"],
+    "homepage": "https://github.com/mpinchuk/scraper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maksim Pinchuk",
+            "email": "pinchuk.maksim@gmail.com",
+            "homepage": "https://github.com/mpinchuk"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/mpinchuk/scraper/issues",
+        "source": "https://github.com/mpinchuk/scraper"
+    },
+    "require": {
+        "php": ">=5.6.4",
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/dom-crawler": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {"Mpinchuk\\Scraper\\": "src/"}
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
